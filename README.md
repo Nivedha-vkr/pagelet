@@ -6,7 +6,7 @@ Pagelet is a clean and simple to-do list application built using HTML, CSS, and 
 👉 [Try the app here] 
 
 ## 📁 Source Code
-💻 [View on GitHub]
+💻 [View on GitHub]- https://github.com/Nivedha-vkr/pagelet
 
 ## 🛠️ Built With
 - HTML
