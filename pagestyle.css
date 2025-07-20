@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+ font-family: "Poppins", sans-serif;
+  
+}
+.nav{
+    
+    background-color: crimson;
+    padding: 15px;
+    border-top: 18px;
+    
+}
+.box{
+padding:10px;
+}
+.page-box{
+padding: 15px;
+width: 25%;
+border-radius: 10px;
+background-color: beige;
+margin: 30px;
+display:inline-block;
+vertical-align: top;
+
+}
+.page-box h2{
+
+  color: crimson;
+}
+.page-box button{
+  background-color: brown;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  margin-top: 3px;
+  border: none;
+  
+}
+.add-box{
+  background-color: brown;
+  color: antiquewhite;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 100%;
+  margin: 20px;
+  font-size: 30px;
+  border:none;
+  right: 30px;
+  bottom: 30px;
+  position: fixed;
+}
+.overlay{
+  background-color: black;
+  opacity: 80%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left:0%;
+  z-index: 1;
+  display: none;
+}
+.popupbox{
+  background-color: crimson;
+  width:40%;
+  padding: 40px;
+  border-radius: 10px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index:2;
+  display: none;
+}
+.popupbox input{
+  background: transparent;
+  width: 100%;
+  border: none;
+  padding:10px;
+  margin: 5px;
+  font-size: 20px;
+  border-bottom: black;
+  border-bottom:solid;
+}
+.popupbox textarea{
+  background: transparent;
+  width: 100%;
+  padding:10px;
+  margin: 5px;
+  font-size: 20px;
+  border:solid;
+
+}
+.popupbox ::placeholder{
+  color: black;
+}
+.popupbox button{
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  border: none;
+  margin: 5px;
+  border-radius: 5px;
+}
+.popupbox input:focus{
+  outline: none;
+}
+.popupbox textarea:focus{
+  outline: none;
+}
